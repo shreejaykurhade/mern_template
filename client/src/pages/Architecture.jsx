@@ -118,7 +118,7 @@ const Architecture = () => {
           <span className="text-xs text-white/70 font-medium tracking-wide uppercase">End To End Mechanics</span>
         </div>
         <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight text-white mb-6">
-          How Vertex Operates
+          How Nexus Operates
         </h1>
         <p className="text-lg text-white/50 max-w-3xl mx-auto">
           A granular deep-dive into how React, Express, Node, and MongoDB execute sequentially behind the scenes in this production boilerplate environment.
