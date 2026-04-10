@@ -4,8 +4,8 @@
   "description": "Express.js backend with clean architecture, JWT auth, and MongoDB",
   "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "start": "nodemon src/server.js",
     "test": "jest --forceExit --detectOpenHandles",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --forceExit",

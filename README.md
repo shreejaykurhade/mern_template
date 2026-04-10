@@ -105,7 +105,11 @@ cp client/.env.example client/.env
 ### 3. Run Development Servers
 
 ```bash
-npm run dev
+# Start Backend
+cd server && npm start
+
+# Start Frontend
+cd client && npm run dev
 ```
 
 This starts both servers:
