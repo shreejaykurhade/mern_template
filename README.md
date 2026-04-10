@@ -1,6 +1,6 @@
-# MERN Template
+# Nexus MERN Stack
 
-A production-grade full-stack MERN boilerplate with clean architecture, JWT authentication (access + refresh tokens), role-based authorization, and a premium React frontend.
+A production-grade full-stack MERN boilerplate (Nexus Framework) featuring clean architecture, secure JWT rotation, and a premium technical documentation portal.
 
 ## 🏗️ Architecture
 
@@ -64,13 +64,10 @@ template_mern/
 ### Frontend
 - **Vite + React 18** — Fast dev server with HMR
 - **Redux Toolkit** — Auth state management with async thunks
-- **React Hook Form + Zod** — Type-safe form validation
+- **Technical Docs Portal** — Interactive deep-dive documentation at `/docs`
 - **Axios Interceptors** — Automatic token refresh with request queue
-- **Protected Routes** — Role-based route guards
-- **Tailwind CSS** — Dark theme with custom design system (glassmorphism, gradients, animations)
-- **Error Boundaries** — Graceful error handling
-- **Toast Notifications** — react-hot-toast
-- **Responsive** — Mobile-first design
+- **Tailwind CSS** — Sleek dark theme using eye-safe monochrome palette
+- **Responsive** — Mobile-first design architecture
 
 ### DevOps
 - **Docker Compose** — MongoDB + Redis + Backend + Frontend
