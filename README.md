@@ -1,6 +1,6 @@
 # MERN Stack Template
 
-A production-grade full-stack MERN boilerplate (Nexus Framework) featuring clean architecture, secure JWT rotation, and a premium technical documentation portal.
+A production-grade full-stack MERN boilerplate featuring clean architecture, secure JWT rotation, and a premium technical documentation portal.
 
 ## 🏗️ Architecture
 
