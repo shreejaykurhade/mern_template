@@ -158,7 +158,7 @@ const Landing = () => {
       <footer className="px-4 py-8 border-t border-white/[0.06]">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-sm text-white/30">
-            Vertex Framework v1.0.0
+            Nexus Framework v1.0.0
           </p>
         </div>
       </footer>

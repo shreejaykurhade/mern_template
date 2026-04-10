@@ -25,7 +25,7 @@ const Navbar = () => {
               <path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <span className="text-white font-bold text-lg tracking-tight hidden sm:block">
-              Vertex
+              Nexus
             </span>
           </Link>
 
