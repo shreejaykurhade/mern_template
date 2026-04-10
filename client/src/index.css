@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base Styles ── */
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.surface.700') transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: theme('colors.surface.700');
+    border-radius: 3px;
+  }
+
+  ::selection {
+    background-color: theme('colors.primary.600');
+    color: white;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* ── Component Classes ── */
+@layer components {
+  /* Glass Card */
+  .glass-card {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-white/[0.06] rounded-2xl;
+  }
+
+  .glass-card-hover {
+    @apply glass-card transition-all duration-300 hover:bg-white/[0.06] hover:border-white/[0.1] hover:shadow-lg hover:shadow-primary-500/5;
+  }
+
+  /* Input Fields */
+  .input-field {
+    @apply w-full px-4 py-3 bg-white/[0.04] border border-white/[0.08] rounded-xl
+           text-white placeholder-white/30
+           focus:outline-none focus:border-primary-500/50 focus:ring-2 focus:ring-primary-500/20
+           transition-all duration-200;
+  }
+
+  .input-label {
+    @apply block text-sm font-medium text-white/70 mb-1.5;
+  }
+
+  .input-error {
+    @apply mt-1 text-xs text-red-400;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply px-5 py-2.5 bg-white text-black font-semibold rounded-lg
+           hover:bg-neutral-200 focus:outline-none focus:ring-2 focus:ring-white/50
+           transition-all duration-200
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply px-5 py-2.5 bg-neutral-900 border border-white/10
+           text-white font-semibold rounded-lg
+           hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-white/20
+           transition-all duration-200;
+  }
+
+  .btn-danger {
+    @apply px-6 py-3 bg-gradient-to-r from-red-600 to-red-500
+           text-white font-semibold rounded-xl
+           hover:from-red-500 hover:to-red-400
+           focus:outline-none focus:ring-2 focus:ring-red-500/50
+           transition-all duration-200;
+  }
+
+  .gradient-text {
+    @apply text-white;
+  }
+
+  /* Animated background gradient */
+  .animate-bg-gradient {
+    background-size: 200% 200%;
+    animation: gradient 6s ease infinite;
+  }
+}
+
+/* ── Utilities ── */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
