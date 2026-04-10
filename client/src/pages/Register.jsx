@@ -57,7 +57,7 @@ const Register = () => {
             </svg>
           </Link>
           <h1 className="text-2xl font-semibold text-white tracking-tight">Create your account</h1>
-          <p className="mt-2 text-sm text-white/50">Start building with Vertex</p>
+          <p className="mt-2 text-sm text-white/50">Start building with Nexus</p>
         </div>
 
         {/* Form Card */}
